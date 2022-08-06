@@ -1,0 +1,64 @@
+:root{
+    --green-color:#009688;
+    --white-color:#fff;
+    --text-font: 'Kaushan Script', cursive;
+    --text-font-p: 'Poppins', sans-serif;
+}
+/*mobile*/
+@media(max-width:740px){
+    .header-banner__text-heading{
+        font-size: 50px;
+        font-family: var(--text-font);
+    }
+    .header-banner-btn{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-banner-btn-link{
+        margin: 15px auto;
+    }
+    .feature-title__text{
+        font-size: 35px;
+    }
+    .feature-box__text{
+        flex-basis: 100%;
+    }
+    .feature-box__img{
+        flex-basis: 100%;
+    }
+    .feature-box__img-salon{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .service-single{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .service-single-desc-font{
+        font-size: 12px;
+    }
+    .service-single-desc hr{
+        margin: 5px auto;
+    }
+    .testimonial-col{
+       flex-basis: 100%;
+    }
+    .footer-row__left, .footer-row__right{
+       flex-basis: 100%;
+       
+    }
+    .footer-row__right{
+        right: 0;
+    }
+
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+
+    }
+    to{
+        opacity: 1;
+  
+    }
+}
